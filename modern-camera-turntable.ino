@@ -8,11 +8,11 @@
 #include <AccelStepper.h>
 #include <ezButton.h>
 
-#define MS1 2       // Pin 25 connected to MS1 pin
-#define MS2 3       // Pin 26 connected to MS2 pin
-#define EN_PIN           4 // Enable
-#define DIR_PIN          6 // Direction
+#define EN_PIN           2 // Enable
+#define MS1 3       // Pin 25 connected to MS1 pin
+#define MS2 4       // Pin 26 connected to MS2 pin
 #define STEP_PIN         5 // Step
+#define DIR_PIN          6 // Direction
 #define SW_RX            40 // TMC2208/TMC2224 SoftwareSerial receive pin
 #define SW_TX            41 // TMC2208/TMC2224 SoftwareSerial transmit pin
 #define SERIAL_PORT Serial // TMC2208/TMC2224 HardwareSerial port
